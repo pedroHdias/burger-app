@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./DrawerToggle.module.css";
+import PropTypes from "prop-types";
 
 const drawerToggle = props => (
   <div className={classes.DrawerToggle} onClick={props.clicked}>
@@ -8,5 +9,9 @@ const drawerToggle = props => (
     <div></div>
   </div>
 );
+
+drawerToggle.propTypes = {
+  clicked: PropTypes.func
+};
 
 export default drawerToggle;
