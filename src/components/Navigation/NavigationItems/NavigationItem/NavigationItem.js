@@ -5,7 +5,9 @@ import PropTypes from "prop-types";
 
 const navigationItem = props => (
   <li className={classes.NavigationItem}>
-    <NavLink to={props.link}>{props.children}</NavLink>
+    <NavLink to={props.link} exact activeClassName={classes.active}>
+      {props.children}
+    </NavLink>
   </li>
 );
 
