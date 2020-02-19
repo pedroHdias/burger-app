@@ -1,3 +1,12 @@
+Project created based on Udemy Course "React - The Complete Guide (incl Hooks, React Router, Redux)" by Maximilian Schwarzmüller
+
+Project name - "burger app"
+
+Description - build and order a burger
+
+Contains - auth, redux, hooks (react >16), routing, testing, and many more features
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
