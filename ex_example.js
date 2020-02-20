@@ -11,8 +11,12 @@
 // console.log("10" - 1);
 // // 9
 // console.log(true && 10 && 11 && 9);
+console.log(true && 9 && 10);
+console.log(false && 9 && 10);
 // // 9
 // console.log(true || 10 || 11 || 9);
+console.log(true || 9 || 10);
+console.log(!true || 0 || 10);
 // // 9
 // console.log(!true || 0 || 11 || 9);
 // // true
